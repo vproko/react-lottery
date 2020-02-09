@@ -1,0 +1,23 @@
+.Prize .center {
+  text-align: center;
+}
+
+.Prize .delete {
+  font-weight: bolder;
+  color: red;
+}
+
+.Prize .delete:hover {
+  text-shadow: 0 0 3px red;
+  cursor: pointer;
+}
+
+.Prize .edit {
+  font-weight: bolder;
+  color: #007acc;
+}
+
+.Prize .edit:hover {
+  text-shadow: 0 0 3px #007acc;
+  cursor: pointer;
+}

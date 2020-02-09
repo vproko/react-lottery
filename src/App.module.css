@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+html {
+  background: url("./lottery-3846567_1920.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: visible;
+  width: 100%;
+}
+
+td,
+th {
+  background: transparent !important;
+  background-color: rgba(255, 255, 255, 0.637) !important;
+}
+
+input,
+label {
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  color: black !important;
+}

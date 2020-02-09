@@ -1,0 +1,57 @@
+.Number div {
+  font-size: 63px;
+  display: inline-block;
+  border: 2px solid #007acc;
+  border-radius: 7px;
+  text-align: center;
+  line-height: 90px;
+  width: 95px;
+  height: 95px;
+  margin: 0.7%;
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.637);
+}
+
+.Number div:hover {
+  pointer-events: none;
+}
+
+.Draw {
+  font-size: 21px;
+  font-weight: bolder;
+  height: 37px;
+  width: 100px;
+  color: white;
+  border: 1px solid white;
+  background-color: #007acc;
+  border-radius: 7px;
+  box-shadow: 0 0 7px #007acc;
+  -webkit-box-shadow: 0 0 7px #007acc;
+  -moz-box-shadow: 0 0 7px #007acc;
+}
+
+.Draw:hover {
+  color: #007acc;
+  border: 1px solid #007acc;
+  background-color: white;
+  cursor: pointer;
+}
+
+.Draw:focus {
+  outline: none;
+}
+
+.Draw:disabled {
+  background-color: grey;
+  color: white;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.Result {
+  width: 50%;
+  background-color: rgba(95, 158, 160, 0.719);
+  margin: 13px auto;
+  padding: 10px;
+  border-radius: 7px;
+}

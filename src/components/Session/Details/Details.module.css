@@ -1,0 +1,27 @@
+.Details table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.Details th,
+td {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #007acc;
+}
+
+.Details th {
+  width: 33%;
+}
+
+.center {
+  text-align: center;
+}
+
+thead,
+tbody {
+  border: 1px solid #007acc;
+}

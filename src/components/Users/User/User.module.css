@@ -1,0 +1,16 @@
+.User .center {
+  text-align: center;
+}
+
+.User .delete {
+  font-size: 30px;
+  color: #f84b37;
+}
+
+.User .delete:hover {
+  color: red;
+  text-shadow: 0 0 3px crimson;
+  font-weight: 900;
+  cursor: pointer;
+  background-color: #ffe9e7;
+}
